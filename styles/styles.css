@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: #333;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+
+.game-container{
+    position:relative;
+    width: 900px;
+    height: 700px;
+    outline: 1px solid #fff;
+    margin: 0 auto;
+
+    transform: scale(1) translateY(25%);
+} 
+
+.game-container canvas{
+    image-rendering: pixelated;
+}
+
+ 
